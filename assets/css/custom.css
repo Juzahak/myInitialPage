@@ -1,0 +1,134 @@
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+
+.ec-test-item{
+    height: 150px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #836243;
+    height: 12px;
+    width: 12px;
+}
+
+.swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+}
+
+.itemBtn{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-imagem1{
+    background-image: url("../img/slider/banner1.jpg");
+    height: 450px !important;
+}
+.bg-imagem2{
+    background-image: url("../img/slider/banner2.jpg");
+    height: 450px !important;
+}
+.bg-imagem-comentarios{
+    background-image: url("../img/banner/banner02.jpg");
+}
+
+.custom-img{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.page-subtitle{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #836243;
+    letter-spacing: -0.3px;
+    position: relative;
+    display: inline;
+    padding: 0;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+    line-height: 1;
+}
+
+
+@media all and (max-width: 240px) {
+    .mob-column{
+        flex-direction: column;
+    }
+    .mob-row{
+        flex-direction: row;
+    }
+    .mob-center{
+        justify-content: center;
+    }
+    
+    .mob-featured{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 241px) and (max-width: 480px) {
+    .mob-column{
+        flex-direction: column;
+    }
+    .mob-row{
+        flex-direction: row;
+    }
+    .mob-center{
+        justify-content: center;
+    }
+    
+    .mob-featured{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .mob-column{
+        flex-direction: column;
+    }
+    .mob-row{
+        flex-direction: row;
+    }
+    .mob-center{
+        justify-content: center;
+    }
+    
+    .mob-featured{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 990px) {
+    .mob-column{
+        flex-direction: column;
+    }
+    .mob-row{
+        flex-direction: row;
+    }
+    .mob-center{
+        justify-content: center;
+    }
+    
+    .mob-featured{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1200px) {
+
+}
